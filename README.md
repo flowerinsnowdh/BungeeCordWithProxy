@@ -1,4 +1,19 @@
-BungeeCord
+# 冬花的修改
+添加JVM参数
+
+## socks5代理
+* `-Dbungeecord.socksProxyHost=<代理主机>`
+* `-Dbungeecord.socksProxyPort=<代理端口>`
+* `-Dbungeecord.socksProxyUserName=<用户名>`（可选，若有）
+* `-Dbungeecord.socksProxyPassword=<密码>`（可选，若有）
+
+## http代理
+* `-Dbungeecord.httpProxyHost=<代理主机>`
+* `-Dbungeecord.httpProxyPort=<代理端口>`
+* `-Dbungeecord.httpProxyUserName=<用户名>`（可选，若有）
+* `-Dbungeecord.httpProxyPassword=<密码>`（可选，若有）
+
+# BungeeCord
 ==========
 Layer 7 proxy designed to link Minecraft servers.
 --------------------------------------------------
